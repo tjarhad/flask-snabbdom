@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Counter</title>
+</head>
+
+<style>
+
+    body{
+        font-size: 30px;
+    }
+
+    .plus {
+        margin: 20px;
+        font-size: 30px;
+    }
+    .minus {
+        margin: 20px;
+        font-size: 30px;
+    }
+
+    .counter {
+        margin: 20px;
+    }
+</style>
+<body>
+
+<div id="container">
+    Hello 
+</div>
+</body>
+
+{% assets "counter_js" %}
+        <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+{% endassets %}
+
+</html>

@@ -1,0 +1,6 @@
+*.pyc
+node_modules
+*.idea
+.webassets-cache
+app/static/public
+venv
